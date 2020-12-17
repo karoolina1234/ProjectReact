@@ -1,0 +1,120 @@
+.imagem-logo{
+  text-align: center;
+}
+.col-md-6.form-group{
+margin: 50px auto;
+}
+
+.consulta.form-label{
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  font-style: italic;
+  color:#007bc1;
+  font-size: 18px;
+}
+
+.col-md-6.form-group #consulta{
+  border-color: #a5ce26;
+  border-radius: 20px;
+  width: 60%;
+  display: inline-block;
+  position: relative;
+}
+.form-busca button, .form-busca button:hover{
+  display: inline-block;
+  right: 24%;
+  top: 36px;
+  background: transparent;
+  position: absolute;
+  border-color: transparent;
+  color: black;
+}
+.input-busca{
+  text-align: center;
+}
+.dados h3{
+  color:#007bc1;
+}
+.dados{display: block}
+.dados-busca{
+  text-align: center;
+}
+.dados h3{
+  display: inline-block;
+  width: 47%;
+}
+#consulta::-webkit-input-placeholder {
+   font-style: italic;
+   opacity: 0.5;
+   font-size: 17px;
+  text-align: center;
+}
+
+#consulta::-moz-placeholder { /* Firefox 18- */
+  font-style: italic;
+   opacity: 0.5;
+   font-size: 17px;
+  text-align: center;
+}
+
+#consulta::-moz-placeholder {  /* Firefox 19+ */
+  font-style: italic;
+   opacity: 0.5;
+   font-size: 17px;
+  text-align: center;
+}
+
+#consulta:-ms-input-placeholder {  
+  font-style: italic;
+  opacity: 0.5;
+  font-size: 17px;
+ text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+
+.dados h3 {
+  display: inline-block;
+  width: 100%;
+}
+.col-md-6.form-group {
+  margin: 29px auto;
+}
+#consulta::-webkit-input-placeholder {
+  font-style: italic;
+  opacity: 0.5;
+  font-size: 13px;
+ text-align: left;
+}
+
+#consulta::-moz-placeholder { /* Firefox 18- */
+ font-style: italic;
+  opacity: 0.5;
+  font-size: 13px;
+ text-align: left;
+}
+
+#consulta::-moz-placeholder {  /* Firefox 19+ */
+ font-style: italic;
+  opacity: 0.5;
+  font-size: 13px;
+ text-align: left;
+}
+
+#consulta:-ms-input-placeholder {  
+ font-style: italic;
+ opacity: 0.5;
+ font-size: 13px;
+text-align: left;
+}
+.form-busca button, .form-busca button:hover {
+  display: inline-block;
+  right: 21%;
+  top: 36px;
+  background: transparent;
+  position: absolute;
+  border-color: transparent;
+  color: #94bc23;
+}
+}
